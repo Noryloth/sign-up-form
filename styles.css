@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
+.left {
+    flex-shrink: 0;
+    text-align: center;
+    background-color: black;
+    width: clamp(100px, 40vw, 80rem);
+    color: #f3f9f3;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.reference {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.left a {
+    color: #f3f9f3;
+}
+
+.left, .right {
+    height: 72.6rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 22rem;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h1 {
+    font-family: "Norse-Bold";
+    font-size: 7rem;
+    color: #f3f9f3;
+}
+
+.right {
+    background-color: #f3f9f3;
+}
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f3f9f3;
+    padding: 14rem 2rem 5rem;
+}
+
+.header, .form {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.form {
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.155);
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    padding-top: 1.2rem;
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+.input-item {
+    width: 200px;
+}
+
+.input-item:nth-child(odd) {
+    margin-right: 12rem;
+}
+
+.form h2 {
+    padding: 2rem 2rem 2rem;
+    font-weight: 500;
+}
+
+.form input {
+    margin: 0 0 1rem;
+    border-radius: 4px;
+    padding: 0.4rem;
+    width: 270px;
+    border-color: rgba(220, 234, 223, 0.412);
+}
+
+.form input:focus {
+    border-color: rgba(177, 196, 237, 0.947);
+}
+
+.form input:valid {
+    border-color: rgb(170, 231, 165);
+}
+
+.form input:invalid {
+    border-color: rgb(255, 47, 0);
+}
+
+.form label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+}
+
+.createBtn {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.createBtn button {
+    width: 14rem;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 2px 4px 16px rgba(0, 39, 3, 0.445);
+    border: none;
+    background-color: rgba(86, 129, 63, 0.91);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.createBtn a {
+    text-decoration: none;
+    color: green;
+}
+

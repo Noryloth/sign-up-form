@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo">
+          <img src="odin-lined.png" alt="Odin Logo">
+          <h1>ODIN</h1>
+        </div>
+        <div class="reference">
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="header">
+          <h2>To be honest, I have no idea what to type here. So I'm just gonna type some incomprehensible nonsense!</h2>
+          <h2>For instance, did you know that Earth is actually NOT flat?</h2>
+          <h2>
+            Boy, I
+            <i>sure</i>
+            did not!
+          </h2>
+        </div>
+        <div class="form">
+          <h2>Let's begin your journey!</h2>
+          <form action="httpbin.org" method="post">
+            <div class="input-item">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+            <div class="input-item">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div class="input-item">
+              <label for="user-email">EMAIL</label>
+              <input type="email" name="user-email" id="user-email" />
+            </div>
+            <div class="input-item">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="number" name="phone-number" id="phone-number" />
+            </div>
+            <div class="input-item">
+              <label for="user-password">PASSWORD</label>
+              <input type="password" name="user-password" id="user-password" required />
+            </div>
+            <div class="input-item">
+              <label for="user-password-confirm">CONFIRM PASSWORD</label>
+              <input type="password" name="user-password-confirm" id="user-password-confirm" required />
+            </div>
+          </form>
+        </div>
+        <div class="createBtn">
+          <button type="submit">Create Account</button>
+          <p>
+            Already have an account?
+            <a href="/">Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
